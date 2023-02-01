@@ -1,0 +1,26 @@
+*{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+$boxshadow:  inset 0px 10px 46px 0px rgba(0,0,0,0.12),
+inset 0px 10px 15px -3px rgba(0,0,0,0.1),
+4px 13px 40px 4px rgba(0,0,0,0.1);
+
+button{
+  border-radius: 10px;
+  border: unset;
+  background-color: #f7f3a8;
+  padding: 10px;
+  margin: 2px;
+  min-width: 50px;
+  min-height: 50px;
+  box-shadow: $boxshadow;
+  margin-left: 4rem;
+}
+button:active{
+  box-shadow:$boxshadow;
+}
