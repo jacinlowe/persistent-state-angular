@@ -1,0 +1,18 @@
+<div class="container">
+
+  <h1>
+    Stateful button
+  </h1>
+  <h3>
+    This is a test of a stateful button
+  </h3>
+  <div class="statebox">
+    <button (click)="decrementNumber()">-</button>
+    <div class="counter">
+      <p>{{counterNum| async}}</p>
+    </div>
+    <button (click)="incrementNumber()">+</button>
+
+  </div>
+  <button (click)="clickRoute()" routerLink="../page2">next page </button>
+</div>
